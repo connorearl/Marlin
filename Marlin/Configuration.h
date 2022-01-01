@@ -1313,7 +1313,7 @@
 // @section extruder
 
 #define DISABLE_E false             // Disable the extruder when not stepping
-#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
+//#define DISABLE_INACTIVE_EXTRUDER   // Keep only the active extruder enabled
 
 // @section machine
 
@@ -2933,3 +2933,8 @@
 
 // Edit servo angles with M281 and save to EEPROM with M500
 #define EDITABLE_SERVO_ANGLES
+
+
+#define ST7920_DELAY_1 DELAY_NS(600)
+#define ST7920_DELAY_2 DELAY_NS(750)
+#define ST7920_DELAY_3 DELAY_NS(750)
