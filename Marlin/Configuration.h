@@ -609,9 +609,9 @@
     #define DEFAULT_Ki_LIST {   1.54,   1.54 }
     #define DEFAULT_Kd_LIST {  76.55,  76.55 }
   #else
-    #define DEFAULT_Kp  48.44 //Customized DBP
-    #define DEFAULT_Ki   5.58 //Customized DBP
-    #define DEFAULT_Kd 105.12 //Customized DBP
+    #define DEFAULT_Kp  19.35 //Customized DBP
+    #define DEFAULT_Ki   1.34 //Customized DBP
+    #define DEFAULT_Kd  69.75 //Customized DBP
   #endif
 #endif // PIDTEMP
 
